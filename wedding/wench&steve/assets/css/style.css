@@ -1,19 +1,4 @@
-/*
-========================================================================
-This css file will overwrite bootstrap css
-------------------------------------------------------------------------
-# Template Name: John & Jane Wedding Template
-# Template URI: http://codepassenger.com/
-# Author: codepassenger
-# Author URI: http://codepassenger.com/
-# Description: John & Jane Responsive One Page Weeding HTML5 CSS3 template by CodePassenger
-# Version: 1.0
-# License: GPL v2 or later
-# License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-# Tags: one page, wedding, html5 template, event, marriage ceremony, wedding template
----------------------------------------------------------------------- 
-========================================================================
-*/
+
 
 /*
 ========================================================================
@@ -183,13 +168,13 @@ ul, li {
 
 /*-----section style-----*/
 .heading {
-	margin-bottom: 80px; 
+	margin-bottom: 80px;
 }
 
 /*-----transparent background-----*/
 
 .color-overlay {
-	background: rgba(0,0,0,0.7); 
+	background: rgba(0,0,0,0.7);
 	padding: 100px 0;
 }
 
@@ -243,7 +228,7 @@ ul, li {
 	height: 35px;
 	top: 5px;
 	left: -85px;
-} 
+}
 
 /*
 ========================================================================
@@ -326,8 +311,8 @@ ul, li {
 .nav-block ul > li a:hover {
 	color: whitesmoke;
 }
-.navbar-default .navbar-nav > .current > a, 
-.navbar-default .navbar-nav > .current > a:hover, 
+.navbar-default .navbar-nav > .current > a,
+.navbar-default .navbar-nav > .current > a:hover,
 .navbar-default .navbar-nav > .current > a:focus {
     background:none;
 	color: #000;
@@ -404,7 +389,7 @@ ul, li {
 .timing .time_circles > div > span[style] {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
-	line-height: normal!important; 
+	line-height: normal!important;
 	margin: 0;
 	color: #d22a2a;
 	display: table-row;
@@ -429,6 +414,7 @@ ul, li {
 
 /*-----background image slider-----*/
 
+/*Removed the other images, if adding more, just add 'item2' etc.*/
 
 #background-carousel {
   position: absolute;
@@ -457,21 +443,7 @@ ul, li {
 
 
 #background-carousel .item-no1 {
-  background: url(../../images/slider/slide-1.jpg) no-repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
-}
-#background-carousel .item-no2 {
-  background: url(../../images/slider/slide-2.jpg) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#background-carousel .item-no3 {
-  background: url(../../images/slider/slide-3.jpg) no-repeat;
+  background: url(../../images/slider/slide-1.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -551,7 +523,7 @@ ul, li {
 .thumb-img h5 {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
-    margin-bottom: 0;    
+    margin-bottom: 0;
 	color: #fff;
 	font-size: 36px;
 	line-height: 33px;
@@ -579,7 +551,7 @@ ul, li {
 	color: #fff;
 }
 .thumbnail-detail {
-    background: #e1704b;	
+    background: #e1704b;
     padding: 20px 15px;
     color: #fff;
     border-radius: 0 0px 20px 20px;
@@ -587,7 +559,7 @@ ul, li {
 }
 .couple .thumbnail-detail .social-icon li {
 	display: inline-block;
-	float: none;	
+	float: none;
 	margin: 10px 15px 0;
 }
 .thumbnail-detail .social-icon li a {
@@ -826,7 +798,7 @@ ul, li {
 .rsvpLink-title {
     font-family: 'Lobster', cursive;
     display: block;
-	
+
     color: #fff;
     font-size: 40px;
     line-height: normal;
@@ -856,7 +828,7 @@ ul, li {
     font-size: 16px;
 }
 .people .thumbnail-detail {
-    padding: 10px;	
+    padding: 10px;
 }
 .profile {
     text-align: left;
@@ -913,10 +885,10 @@ ul, li {
        -moz-transition: .3s ease;
          -o-transition: .3s ease;
         -ms-transition: .3s ease;
-            transition: .3s ease;	
+            transition: .3s ease;
 }
 .event-body {
-    position: relative;    
+    position: relative;
     padding: 35px 35px 100px;
     text-align: center;
 }
@@ -938,7 +910,7 @@ ul, li {
     padding: 25px 10px;
 }
 .event-year {
-    color: #B8B8B8;	
+    color: #B8B8B8;
     display: block;
 }
 
@@ -954,7 +926,7 @@ ul, li {
 .gift-block {
 	position: relative;
     padding: 65px 20px;
-    text-align: center;    
+    text-align: center;
 	border: 3px solid #D3D3D3;
     background: rgba(219,219,219,.9);
     z-index: 1;
@@ -969,9 +941,9 @@ ul, li {
 }
 .gift-block:hover .gift-overlay {
 	z-index: -1;
-	background: #fff; 
+	background: #fff;
 }
-.gift-block a {	
+.gift-block a {
     display: block;
     text-align: center;
     vertical-align: middle;
@@ -1020,11 +992,11 @@ ul, li {
 .caption {
  position: absolute;
  top: 0;
- left: 0px; 
+ left: 0px;
  width: 100%;
  height: 100%;
  padding: 30px;
- text-align: center; 
+ text-align: center;
  color: #fff;
  -webkit-transition: .4s ease;
        -moz-transition: .4s ease;
@@ -1122,7 +1094,7 @@ ul, li {
 	color: #191919;
 }
 .blog-head {
-   padding: 10px 20px; 
+   padding: 10px 20px;
 }
 .blog-head h5 {
 	text-transform: uppercase;
@@ -1133,7 +1105,7 @@ ul, li {
     position: relative;
     overflow: hidden;
 }
-.blog-post:hover .blog-thumb-hover {	
+.blog-post:hover .blog-thumb-hover {
 	bottom: 0%;
 }
 .blog-thumb-hover {
@@ -1159,7 +1131,7 @@ ul, li {
 	vertical-align: middle;
 	vertical-align: middle;
 	position: absolute;
-	left: 50%;	
+	left: 50%;
 	bottom: -25px;
 	margin-left: -25px;
 }
@@ -1211,7 +1183,7 @@ blockquote:after {
 }
 blockquote:before {
     content: "";
-	position: absolute;	
+	position: absolute;
     top: -28px;
     left: 30px;
     background: url(../../images/icon/block_qoute_left.png) no-repeat;
@@ -1260,10 +1232,10 @@ blockquote:before {
 	letter-spacing: 0.025em;
 }
 .divider {
-     border-right: 1px solid #d9d9d9; 
+     border-right: 1px solid #d9d9d9;
 }
 .contact-block {
-	 padding-left: 25px; 
+	 padding-left: 25px;
 }
 .contact h5 {
 	text-transform: uppercase;
@@ -1274,7 +1246,7 @@ blockquote:before {
 .contact .form-group {
     margin-bottom: 24px;
 }
-.contact .form-control, 
+.contact .form-control,
 .contact textarea {
 	background: #fcfcfc;
 	border: 1px solid #e1704b;
@@ -1329,7 +1301,7 @@ input[type="submit"]:focus, input[type="submit"]:active {
 	color: #d44646;
 }
 .sbToggle:focus {
-	color: #d44646; 
+	color: #d44646;
 }
 .contact .default-btn {
     padding: 10px;
@@ -1560,11 +1532,11 @@ input[type="submit"]:focus, input[type="submit"]:active {
 
 .social-block {
     padding: 40px 0 65px;
-	
+
 }
 .social-block span {
     font-weight: 700;
-	
+
     letter-spacing: 0.025em;
 }
 .social-block .fa {
@@ -1577,10 +1549,10 @@ input[type="submit"]:focus, input[type="submit"]:active {
     border-radius: 3px;
 	margin: 0 5px 0;
 }
-.social-block a .fa-facebook {      
+.social-block a .fa-facebook {
     color: #47639e;
 }
-.social-block a .fa-facebook:hover {      
+.social-block a .fa-facebook:hover {
     background-color: #47639e;
     border: 1px solid #47639e;
     color: #fff;
@@ -1594,21 +1566,21 @@ input[type="submit"]:focus, input[type="submit"]:active {
 	color: #fff;
 }
 .social-block a .fa-google {
-    color: #d94531;	
+    color: #d94531;
 }
 .social-block a .fa-google:hover {
     background-color: #d94531;
 	border: 1px solid #d94531;
     color: #fff;
 }
-.social-block a .fa-share-alt {	
+.social-block a .fa-share-alt {
     color: #d94531;
 }
 .social-block a .fa-share-alt:hover {
     background: #d94531;
-    border: 1px solid #d94531; 
+    border: 1px solid #d94531;
     color: #fff;
-	
+
 }
 
 /*------------------Comment Style-----------------*/
@@ -1661,7 +1633,7 @@ ul.media-list + ul .media-object {
 }
 .reply-block .default-btn {
 	padding: 15px 46px;
-    
+
 	border-radius: 2px;
 }
 .reply-block .contact {
@@ -1707,17 +1679,17 @@ footer .color-overlay {
 }
 footer a .fa {
 	background: transparent;
-    color: #fff;	
+    color: #fff;
     border: 1px solid #fff;
     padding: 15px 10px;
-    
+
 	font-size: 26px;
     width: 55px;
     height: 55px;
     text-align: center;
-    
+
 	margin: 0px 16px 60px;
-    
+
 	border-radius: 50%;
     -webkit-transition: .3s ease;
        -moz-transition: .3s ease;
@@ -1728,7 +1700,7 @@ footer a .fa {
 footer a .fa:hover {
     background: #d44646;
     color: #fff;
-    border-color: #d44646;  
+    border-color: #d44646;
 }
 footer .nav {
 	margin-bottom: 45px;
@@ -1774,14 +1746,14 @@ footer .nav {
 	display: none;
 }
 #go-to-top .fa {
-	position: fixed;    
+	position: fixed;
 	bottom: 5px;
-    right: 5px;    
+    right: 5px;
 	width: 56px;
 	height: 56px;
 	color: #9B9393;
-    
-	font-size: 38px;    
+
+	font-size: 38px;
     border: none;
     text-align: center;
     padding: 5px;
@@ -1793,8 +1765,3 @@ footer .nav {
 	border-color: #d44646;
 	color: #fff
 }
-
-
-
-
-
