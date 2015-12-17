@@ -140,6 +140,10 @@ $(function () {
 	$("#mainMeal").selectbox();
 	$("#desertMeal").selectbox();
 	$("#drinkPreference").selectbox();
+	$("#starterMeal-2").selectbox();
+	$("#mainMeal-2").selectbox();
+	$("#desertMeal-2").selectbox();
+	$("#drinkPreference-2").selectbox();
 	$("#numberOfAdults").selectbox();
 	$("#numberOfKids").selectbox();
   $("#eventAttending").selectbox();

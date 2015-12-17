@@ -601,9 +601,11 @@
 					<div class="col-sm-9">
 						<div class="contact-block">
 							<h5>Menu options</h5>
+
 							<form class="contact_form" role="form" action="#">
-								<div class="row">
-									<div class="col-sm-6">
+								<div class="row" id="adult-1">
+									<div class="col-sm-4">
+										<h4>Adult 1</h4>
 										<div class="form-group">
 										<select name="starterMeal" id="starterMeal" tabindex="1">
 											<option>-Please choose a starter-</option>
@@ -635,18 +637,64 @@
 												<option value="hip">A glug from the groom's hip flask</option>
 											</select>
 										</div>
+											<div class="form-group">
+												<p>Dietary requirements</p>
+													<textarea class="form-control" name="message" id="message" placeholder="Gluten free? Vegan? Nut allergy? Please let us know."></textarea>
+											 </div>
 									</div>
-									<div class="col-sm-6">
+
+									<div class ="hidethisshit">
+									<div class="col-sm-4">
 										<div class="form-group">
-											<p>Dietary requirements</p>
-												<textarea class="form-control" name="message" id="message" placeholder="Gluten free? Vegan? Nut allergy? Please let us know."></textarea>
-										 </div>
+												<h4>Adult 2</h4>
+										<select name="starterMeal" id="starterMeal" tabindex="1" sb="54489278" style="display: none;">
+											<option>-Please choose a starter-</option>
+												<option value="salmon">Smoked Salmon</option>
+												<option value="pate">Chicken Liver Pate</option>
+												<option value="feta">Feta &amp; Caramelised Red Onion Tart</option>
+											</select><div id="sbHolder_54489278" class="sbHolder" tabindex="1"><a id="sbToggle_54489278" href="#" class="sbToggle"></a><a id="sbSelector_54489278" href="#" class="sbSelector">-Please choose a starter-</a><ul id="sbOptions_54489278" class="sbOptions" style="top: 44px; max-height: 200.375px; display: none;"><li><a href="#-Please choose a starter-" rel="-Please choose a starter-" class="">-Please choose a starter-</a></li><li><a href="#salmon" rel="salmon" class="">Smoked Salmon</a></li><li><a href="#pate" rel="pate" class="">Chicken Liver Pate</a></li><li><a href="#feta" rel="feta" class="">Feta &amp; Caramelised Red Onion Tart</a></li></ul></div>
+										</div>
+										<div class="form-group">
+												<select name="mainMeal" id="mainMeal" tabindex="1" sb="55226005" style="display: none;">
+													<option>-Please choose a main meal-</option>
+												<option value="seabass">Fillet of Seabass</option>
+												<option value="risotto">Roasted Butternut Squash Risotto</option>
+												<option value="lamb">Rumb of Lamb (medium rare)</option>
+											</select><div id="sbHolder_55226005" class="sbHolder" tabindex="1"><a id="sbToggle_55226005" href="#" class="sbToggle"></a><a id="sbSelector_55226005" href="#" class="sbSelector">-Please choose a main meal-</a><ul id="sbOptions_55226005" class="sbOptions" style="display: none;"><li><a href="#-Please choose a main meal-" rel="-Please choose a main meal-" class="sbFocus">-Please choose a main meal-</a></li><li><a href="#seabass" rel="seabass">Fillet of Seabass</a></li><li><a href="#risotto" rel="risotto">Roasted Butternut Squash Risotto</a></li><li><a href="#lamb" rel="lamb">Rumb of Lamb (medium rare)</a></li></ul></div>
+										</div>
+										<div class="form-group">
+												<select name="desertMeal" id="desertMeal" tabindex="1" sb="14697271" style="display: none;">
+													<option>-Please choose a desert-</option>
+												<option value="lemon">Lemon Tart</option>
+												<option value="toffee">Sticy Toffee Pudding</option>
+											</select><div id="sbHolder_14697271" class="sbHolder" tabindex="1"><a id="sbToggle_14697271" href="#" class="sbToggle"></a><a id="sbSelector_14697271" href="#" class="sbSelector">-Please choose a desert-</a><ul id="sbOptions_14697271" class="sbOptions" style="display: none;"><li><a href="#-Please choose a desert-" rel="-Please choose a desert-" class="sbFocus">-Please choose a desert-</a></li><li><a href="#lemon" rel="lemon">Lemon Tart</a></li><li><a href="#toffee" rel="toffee">Sticy Toffee Pudding</a></li></ul></div>
+										</div>
+										<div class="form-group">
+												<select name="drinkPreference" id="drinkPreference" tabindex="1" sb="6892635" style="display: none;">
+												<option value="red">Red Wine</option>
+												<option value="white">White Wine</option>
+												<option value="non">Non-alchoholic</option>
+												<option value="hip">A glug from the groom's hip flask</option>
+											</select><div id="sbHolder_6892635" class="sbHolder" tabindex="1"><a id="sbToggle_6892635" href="#" class="sbToggle"></a><a id="sbSelector_6892635" href="#" class="sbSelector">Red Wine</a><ul id="sbOptions_6892635" class="sbOptions" style="display: none;"><li><a href="#red" rel="red" class="sbFocus">Red Wine</a></li><li><a href="#white" rel="white">White Wine</a></li><li><a href="#non" rel="non">Non-alchoholic</a></li><li><a href="#hip" rel="hip">A glug from the groom's hip flask</a></li></ul></div>
+										</div>
+											<div class="form-group">
+												<p>Dietary requirements</p>
+													<textarea class="form-control" name="message" id="message" placeholder="Gluten free? Vegan? Nut allergy? Please let us know."></textarea>
+											 </div>
 									</div>
 								</div>
+
+								</div>
+
+
+
 							</form>
 						</div>
 						<!-- /.menu-block end -->
 					</div>
+
+
+
 				</div>
 			</div>
 		</section>
@@ -819,11 +867,16 @@
     <script>
 
 
+		$('#numberOfAdults').change(function(){
+			var select = $('')
+			alert($('#numberOfAdults').val());
+		})
 
-$(function(){
-  var numberOfKids =	$("#numberOfKids").val().change();
-	alert( $('#numberOfKids').val());
-});
+//
+$('#numberOfKids').change(function(){
+
+	alert($('#numberOfKids').val());
+})
 		//act on select drop down change events
 
 

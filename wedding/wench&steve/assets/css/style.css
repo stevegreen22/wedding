@@ -1765,3 +1765,7 @@ footer .nav {
 	border-color: #d44646;
 	color: #fff
 }
+
+.hidethisshit {
+  display: none;
+}
